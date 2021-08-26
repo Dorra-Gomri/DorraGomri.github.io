@@ -23,43 +23,14 @@ hr {
 
     </style>
     <link rel="stylesheet" href="st.css">
-    <title>PAQ&#8211;DGSE QuAI</title>
+    <title>A propos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
   </head>
+  
   <body>
-    <header>
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="stu.jpg" class="d-block w-100" alt="happy">
-          </div>
-          <div class="carousel-item">
-            <img src="enit.jpg" class="d-block w-100" alt="enit">
-          </div>
-          <div class="carousel-item">
-            <img src="campus.png" class="d-block w-100" alt="campus">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-    </header>
-    
     <nav class="navbar navbar-light bg-light"  >
       <a class="navbar-brand" href="#">
       <img src="logo_enit_trans.png" width="60" height="60" class="d-inline-block align-top " alt="logo">
@@ -68,229 +39,208 @@ hr {
   
 
       <li class="nav nav-pills nav justify-content-end">
-        <button class="btn btn-primary " type="button"><a href="nour.html" style="color: #ffcc00;text-decoration: none;">Accueil</a></button>
-        <a class="nav-link" href="Accueil.html">Présentation</a>
-        <a class="nav-link" href="kickoff.html">kick-off</a>
-        <a class="nav-link" href="#">Actualité</a>
         
-      </li>
-    </nav>
-
-    <body>
-       
-      <div class="container " >
-        <div class="row">
-          <div class="col-d-flex">
-            <div class="br"> 
-              <marquee  direction="up">
-                 <center> Projet de Qualité  Accréditation et Innovation</center> 
-              </marquee>
-              </div>
+        <div class="dropdown">
+          <a class="btn btn-primary dropdown-toggle" href="#*" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffcc00;text-decoration: none; margin-right: 17px;">
+            Présentation
+          </a>
+        
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="index.html" style="color: #235ac9; font-weight: bold;">A propos</a>
+            <a class="dropdown-item" href="equipe.html" style="color: #235ac9; font-weight: bold;">Equipe </a>
+            <a class="dropdown-item" href="#" style="color: #235ac9; font-weight: bold;">Partenaire</a>
           </div>
         </div>
-        <div class="row ">
-          <div class="col-d-flex justify-content-start align-items-center">
-            <div class="cont">
-              <div class="column">
-                <div id="conteneur">
-                  <img id="mm" src="qua.jpg" alt="Qualité" style="width:100%" class="d-inline-block align-top ">
-                  <div id="text-block">
-                    <h4><a href="#" style="color: #ffffff; text-decoration: none;">Qualité</a></h4>
-                  </div>
-                </div>             
-              </div>
-              <div class="column">
-                <div id="conteneur">
-                  <img id="mm" src="nn.jpg" alt="Innovation" style="width:100%" class="d-inline-block align-top ">
-                  <div id="text-block">
-                    <h4 ><a href="#"style="color: #ffffff; text-decoration: none;">Innovation</a></h4>
-                  </div>
-                </div>
-              </div>
-              <div class="column">
-                <div id="conteneur">
-                  <img id="mm" src="accr.jpg" alt="Accréditation" style="width:100%" class="d-inline-block align-top ">
-                  <div id="text-block">
-                    <h4><a href="#" style="color: #ffffff; text-decoration: none;">Accréditation</a></h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      <br><br>
-        <div class="row ">
-          <div class="col-d-flex" style=" background-color: #ddd; padding: 10px;">
-            <div class="slidecontainer">
-              <input type="range" min="1" max="100" value="50" class="slider"  >
-            </div>
-            <script>
-              var slider = document.getElementById("myRange");
-              var output = document.getElementById("demo");
-              output.innerHTML = slider.value;
-              
-              slider.oninput = function() {
-                output.innerHTML = this.value;
-              }
-              </script>
+        <div class="dropdown">
+          <div class="nav-link">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="text-decoration: none;">Domaines
+            </a>
+             <ul class="dropdown-menu">
+               <li><a  class="dropdown-item" href="#" style="color: #235ac9; font-weight: bold;" >Gouvernance</a></li>
+               <li><a  class="dropdown-item" href="#" style="color: #235ac9; font-weight: bold;">Formation et Employabilité</a></li>
+               <li><a  class="dropdown-item" href="#" style="color: #235ac9; font-weight: bold;">Recherche et Innovation</a></li>
+               <li><a  class="dropdown-item" href="#" style="color: #235ac9; font-weight: bold;">Vie Universitaire</a></li>
+             </ul>
           </div>
           
         </div>
+        <a class="nav-link" href="#">Actualités</a>
+        
+      </li>
+    </nav>
+    <header class=" hero-image " style="padding: 100px; color: #ffcc00;" >
+      <center><p style="font-size: small;"><a href="#"style="color: #ffcc00; text-decoration: none;">Présentation</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+        </svg><a href="#" style="color: #ffcc00; text-decoration: none;">Présentation QuAI</a><br>
+        <span style="font-size:30px;">Présentation QuAI</span></p></center>
       
-        <div class="row">
-          <div id="column" style="background-color:#ddd; height: 320px;">
-            <div id="content" style="background-color: #ddd">
-              <div style="font-size:18px;color: #039;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Projet QuAI</div>
-              <h1 style="color: #039;">&nbsp;&nbsp;&nbsp;&nbsp;Qualité, Accréditation et &nbsp;&nbsp;&nbsp;&nbsp;Innovation</h1>
-              &nbsp;<ol class="rounded-list">
-                <li><a href="#" style="text-decoration: none;">Capacité de Gestion et Gouvernance</a></li>
-                <li><a href="#" style="text-decoration: none;">Formation et Employabilité</a></li>
-                <li><a href="#" style="text-decoration: none;">Recherche et Innovation</a></li>
-                <li><a href="#" style="text-decoration: none;">Vie universitaire</a></li>
-              </ol>
-            
-           </div>
-            
-          </div>
-          <div id="column" style="background-color:#ddd; height: 320px;">
-            <video width="100%" height="240" controls id="myVideo">
-              <source src="Vidéo GAGE.mp4" type="video/mp4">
-              <source src="Vidéo GAGE.mp4" type="video/ogg">
-           </video>
-           </div>
-        </div> 
-      
-         
-    </div>  
-    <br><br>
-   
-     <div class="row hero-image " style="padding: 60px;" >
-        <div class="col-3" >
-          <center><i style="font-size:30px" style="margin-bottom: 10px;" class="fa">&#xf0d6; </i></center> 
-         <center><h1>4139</h1></center> 
-          <center><p>Budget en MD</p></center>
-        </div>
-        <div class="col-3" ><br>
-          <center><svg xmlns="http://www.w3.org/2000/svg" width="35px"  height="35px" style="margin-bottom: 8px;" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
-            <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-            <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
-            <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/> </svg></center>
-          <center><h1>68</h1></center>
-          <center><p>Membre CE</p></center>
-        </div>
-        <div class="col-3">
-          <center><i style="font-size:30px" style="margin-bottom: 8px;" class="fa">&#xf135;</i></center>
-          <center><h1>103</h1></center>
-          <center><p>Activité</p></center>
-        </div>
-        <div class="col-3">
-          <br>
-          <center><svg xmlns="http://www.w3.org/2000/svg" width="30px" style="margin-bottom:15px;" height="30px" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
-            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-          </svg></center>
-          <span class="fi-media-step-backward"></span>
-          <center><h1>2</h1></center>
-          <center><p>ans</p></center>
-          </div>
-         
+  </header>
+  <br><br><br>
 
+
+  <body>
+
+    <div class=""  >
+      <div class="container">
+          <div style="color: #039;">
+              <center> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-display" viewBox="0 0 16 16">
+                  <path d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4c0 .667.083 1.167.25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75c.167-.333.25-.833.25-1.5H2s-2 0-2-2V4zm1.398-.855a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145z"/>
+                </svg><br><span style="font-size: 28px;">Présentations Slide</span>
+                <hr noshade style="width:300px; color:blue; height:3px; text-align:left; border:1px solid blue;"></center>
+          </div>
       </div>
-      <br><br>
-
+  </div>
+  <br>
+  <div style="background-color: #ddd; font-size:30px; color: #039; padding:60px;">
     <div class="container">
-      <div id="row" style="color: #ffcc00;">
-        <h5>Dernière <strong>Actualités</strong>  <svg xmlns="http://www.w3.org/2000/svg" style="color: #235ac9;" width="16px" height="16px" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-          <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-        </svg> <a href="#" style="text-decoration: none;"> Afficher plus</a> </h5>
-         
-    
-        <hr>
-      
-        <div id="coul">
-          <div class="card" style="width:250px; color: #ffcc00;">
-            <img class="card-img-top" src="mage1.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-              <a href="#" class="card-text">Préparation au championnat de l'Université de Tunis El Manar de Badminton</a><br><br>
-              <p style=" font-size: 12px;"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
-                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
-              </svg> 01-04-2021 &ensp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-              </svg> 170</p>
-            </div>
-          </div>
-        </div>
-        <div id="coul">
-          <div class="card" style="width:250px">
-            <img class="card-img-top" src="mage2.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-              <a href="#" class="card-text">Championnat et Formation en Badminton organisés à l'UTM</a><br><br>
-              <p style=" font-size: 12px;"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
-                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
-              </svg> 26-03-2021 &ensp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-              </svg> 1030</p>
-            </div>
-          </div>
-          <br>
-        </div>
-        <div id="coul">
-          <div class="card" style="width:250px">
-            <img class="card-img-top" src="mage3.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-              <a href="#" class="card-text">Retour en images sur le Bootcamp de la 1 ère édition du concours UTM-Innov</a><br><br>
-              <p style=" font-size: 12px;"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
-                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
-              </svg> 19-03-2021 &ensp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-              </svg> 291</p>
-            </div>
-          </div>
-          <br>
-        </div>
-        <div id="coul">
-          <div class="card" style="width:250px; height: 299px;">
-            <img class="card-img-top" src="mage4.png" alt="Card image" style="width:100%">
-            <div class="card-body">
-              <a href="#" class="card-text">Action UTM PAQDGSU GAGE« Formation en Gestion de Projets Selon la Méthode PRINCE 2 »</a><br><br>
-              <p style=" font-size: 12px;"> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
-                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
-              </svg> 18-03-2021 &ensp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-              </svg> 615</p>
-            </div>
-          </div>
-          <br>
-        </div>
-      </div>
-      
-      <br><br><h6 style="text-align: right;"><a href="#" style="color: #039;">Voir toutes les actualités</h6></p><hr><br>
-      <div style="background-color: rgba(255, 255, 255, 0.952);">
-        <center> <p style="color: #ffcc00; font-size: 30px;">Nos <strong> Infolettres</strong></p></center><br>
-        <div class="ligne">
-          <div class="vol">
-            <h6>1</h6>
-            <h6>Vol</h6>
-           
-          </div>
-          <a href="http://www.utm.rnu.tn/gage/documents/infolettres/utm-gage-infolettre-v1.pdf" download>
-            <img src="info.png" alt="W3Schools" width="300px" height="350px">
-          </a>
-        </div>
-      </div>
-     
-
-      
+        <center>Présentation <strong>Générale</strong></center><br>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTV-W5zqYmRiJKUVkTqJ1zHjq2-wtl4liAdJLlLG3rhESEKoAEqOqtybXNPVh9fwqGkPoujq6G8XFD2/embed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     </div>
+    <div class="col-d-flex" style=" background-color: #ddd; padding: 10px;">
+        <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider"  >
+        </div>
+        <script>
+          var slider = document.getElementById("myRange");
+          var output = document.getElementById("demo");
+          output.innerHTML = slider.value;
+          
+          slider.oninput = function() {
+            output.innerHTML = this.value;
+          }
+          </script>
+    </div>
+    <div class="row">
+        <div id="column" style="background-color:#ddd; height: 320px;margin-left: 0%;">
+          <div id="content" style="background-color: #ddd">
+            <div style="font-size:18px;color: #444;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Domaine 1</div>
+            <h1 style="color: #039;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Capacité de Gestion et &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gouvernance<br><span style="font-size:15px;color: #444;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ensemble, bâtissons l’avenir.</span></h1>
+            &nbsp;<ol class="rounded-list">
+              <li><a href="#" style="text-decoration: none;">Assurance qualité</a></li>
+              <li><a href="#" style="text-decoration: none;">Autonomie institutionnelle et Redevabilité</a></li>
+              <li><a href="#" style="text-decoration: none;">Système d’Information Numérique et de Communication</a></li>
+            </ol>
+          
+         </div>
+          
+        </div>
+        <br>
+        <div id="column" style="background-color:#ddd; height: 320px;">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTV-W5zqYmRiJKUVkTqJ1zHjq2-wtl4liAdJLlLG3rhESEKoAEqOqtybXNPVh9fwqGkPoujq6G8XFD2/embed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="320" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+    </div> 
+    <br>
+    <div class="col-d-flex" style=" background-color: #ddd; padding: 10px;">
+        <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider"  >
+        </div>
+        <script>
+          var slider = document.getElementById("myRange");
+          var output = document.getElementById("demo");
+          output.innerHTML = slider.value;
+          
+          slider.oninput = function() {
+            output.innerHTML = this.value;
+          }
+          </script>
+    </div>
+    <div class="row">
+        <div id="column" style="background-color:#ddd; height: 320px;">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTV-W5zqYmRiJKUVkTqJ1zHjq2-wtl4liAdJLlLG3rhESEKoAEqOqtybXNPVh9fwqGkPoujq6G8XFD2/embed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="320" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+         </div>
+        <div id="column" style="background-color:#ddd; height: 320px;">
+          <div id="content" style="background-color: #ddd">
+            <div style="font-size:18px;color: #444;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Domaine 2</div>
+            <h1 style="color: #039;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Formation et Employabilité<br><span style="font-size: 15px;color: #444;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L’UTM se prépare l’avenir.</span></h1>
+            &nbsp;&nbsp;<ol class="rounded-list">
+              <li><a href="#" style="text-decoration: none;">Gestion de l’innovation pédagogique et de la qualité de l’enseignement</a></li>
+              <li><a href="#" style="text-decoration: none;">Capacité de gestion proactive des cursus qui insèrent</a></li>
+              <li><a href="#" style="text-decoration: none;">Insertion professionnelle des étudiants</a></li>
+            </ol>
+          
+         </div>
+          
+        </div>
+        
+      </div>
+      <br> 
+      <div class="col-d-flex" style=" background-color: #ddd; padding: 10px;">
+        <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider"  >
+        </div>
+        <script>
+          var slider = document.getElementById("myRange");
+          var output = document.getElementById("demo");
+          output.innerHTML = slider.value;
+          
+          slider.oninput = function() {
+            output.innerHTML = this.value;
+          }
+          </script>
+    </div>
+    <div class="row">
+        <div id="column" style="background-color:#ddd; height: 320px;">
+          <div id="content" style="background-color: #ddd">
+            <div style="font-size:18px;color: #444;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Domaine 3</div>
+            <h1 style="color: #039;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recherche et Innovation <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 15px; color: #444;">Innovate today, lead tomorrow.
+
+            </span></h1>
+            &nbsp;&nbsp;<ol class="rounded-list">
+              <li><a href="#" style="text-decoration: none;">Écosystème d’innovation et d’entrepreneuriat universitaire</a></li>
+              <li><a href="#" style="text-decoration: none;">Gouvernance d’une université innovante et entrepreneuriale</a></li>
+              <li><a href="#" style="text-decoration: none;">Gouvernance d’une université innovante et entrepreneuriale</a></li>
+            </ol>
+          
+         </div>
+          
+        </div>
+        <br>
+        <div id="column" style="background-color:#ddd; height: 320px;">
+            <br><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTV-W5zqYmRiJKUVkTqJ1zHjq2-wtl4liAdJLlLG3rhESEKoAEqOqtybXNPVh9fwqGkPoujq6G8XFD2/embed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="320" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+         </div>
+      </div>
+      <br> 
+      <div class="col-d-flex" style=" background-color: #ddd; padding: 10px;">
+        <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider"  >
+        </div>
+        <script>
+          var slider = document.getElementById("myRange");
+          var output = document.getElementById("demo");
+          output.innerHTML = slider.value;
+          
+          slider.oninput = function() {
+            output.innerHTML = this.value;
+          }
+          </script>
+    </div>
+    <div class="row">
+        <br>
+        <div id="column" style="background-color:#ddd; height: 320px;">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTV-W5zqYmRiJKUVkTqJ1zHjq2-wtl4liAdJLlLG3rhESEKoAEqOqtybXNPVh9fwqGkPoujq6G8XFD2/embed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="320" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        <div id="column" style="background-color:#ddd; height: 320px;">
+          <div id="content" style="background-color: #ddd">
+            <div style="font-size:18px;color: #444;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Domaine 4</div>
+               <h1 style="color: #039;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vie universitaire<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 15px; color: #444;">L’UTM, histoire d’une vie.</span></h1>
+               &nbsp;&nbsp;<ol class="rounded-list">
+                 <li><a href="#" style="text-decoration: none;">Renforcement des Activités Estudiantines et du Partenariat Culturel et Sportif</a></li>
+                 <li><a href="#" style="text-decoration: none;">Amélioration du bien-être à l’Université</a></li>
+                 <li><a href="#" style="text-decoration: none;">Amélioration des services dédiés aux étudiants</a></li>
+                 <li><a href="#" style="text-decoration: none;">Modernisation de l’espace universitaire</a></li>
+                </ol>
+            </div>
+          
+        </div>
+       
+    </div>  
+</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
+  </body>
    <br><br>
-    </body>
-
 
    <!-- Footer -->
 <footer  class="text-lg-start text-white" style="background-color: #091331;">
@@ -311,7 +261,7 @@ hr {
               <strong>NOTRE NEWSLETTER</strong>
           </div>
           <div class="bb">
-           <center> <p id="titre">Rester en contact avec nous !</p></center>
+           <center> <p id="titre">Restez en contact avec nous !</p></center>
           </div>
           <div class="col-md-5 col-12 ">
             <div class="form-outline form-white mb-4">
